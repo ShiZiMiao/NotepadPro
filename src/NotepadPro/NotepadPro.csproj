@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>NotepadPro</RootNamespace>
+    <AssemblyName>NotepadPro</AssemblyName>
+    <Version>1.0.0</Version>
+    <Product>NotepadPro</Product>
+    <Description>A fast, lightweight source code editor for Windows.</Description>
+    <ApplicationIcon>Resources\notepadpro.ico</ApplicationIcon>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <HighEntropyVA>true</HighEntropyVA>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Scintilla5.NET" Version="7.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\zh-CN.json" />
+    <EmbeddedResource Include="Localization\en-US.json" />
+  </ItemGroup>
+
+</Project>

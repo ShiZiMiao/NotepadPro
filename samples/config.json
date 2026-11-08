@@ -1,0 +1,9 @@
+{
+  "name": "NotepadPro",
+  "version": "1.0.0",
+  "tags": ["editor", "windows"],
+  "config": {
+    "font": "Consolas",
+    "size": 11
+  }
+}
